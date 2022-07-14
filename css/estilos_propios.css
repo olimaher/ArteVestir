@@ -1,0 +1,39 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.carousel-item {
+  height: 55rem;
+}
+.rounded-circle {
+  max-height: 150px;
+  margin-bottom: 1em;
+}
+.session-btn {
+    margin-left:1em;
+    border-left:1px solid #9b9d9e
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+   
+  }
+  .carousel-item > img {
+    height: auto !important;
+  }
+  .carousel-inner{
+    align-items: center;
+    margin-left: 3rem;
+  }
+
+  .carousel-control-prev{
+    margin-left: 7rem;
+  }
+}
+.logo-estilo {
+  border-radius: 10px;
+}
